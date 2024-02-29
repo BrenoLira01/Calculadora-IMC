@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora IMC</title>
+
+    <link rel="stylesheet" href="style/style.css">
+  </head>
+  <body>
+    <div class="link">
+      <a
+        href="https://github.com/BrenoLira01"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button class="social-icon" id="github" aria-label="Ir para o GitHub">
+          <img src="./imagens/Github.svg" alt="GitHub" class="icon" />
+        </button>
+      </a>
+      <a
+        href="https://www.linkedin.com/in/breno-lira-perfil"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button class="social-icon" aria-label="Ir para o LinkedIn">
+          <img src="./imagens/Linkedin.svg" alt="LinkedIn" class="icon" />
+        </button>
+      </a>
+    </div>
+
+    <h1 class="tituloInicial">Calculadora IMC</h1>
+
+    <div class="caixaDialogo">
+      <p class="explicação">
+        (IMC) ou índice de massa corporal é um parâmetro adotado pela
+        Organização Mundial da Saúde para calcular o peso ideal de cada
+        pessoa.<br /><br />O cálculo é realizado da seguinte maneira: divide-se
+        o peso do paciente pela sua altura elevada ao quadrado. Diz-se que o
+        indivíduo tem peso normal quando seu IMC está entre 18,5 e 24,9.
+      </p>
+      <h2 class="tituloSecundario">Quer saber o seu?</h2>
+
+      <div class="inputs">
+        <p class="descricao">Altura</p>
+        <input
+          class="primeiroInput"
+          type="text"
+          placeholder="(exemplo: 1,70)"
+          autofocus
+          value=""
+        />
+      <div>
+        <p class="descricao">Peso</p>
+        <input
+          class="segundoInput"
+          type="text"
+          placeholder="(exemplo: 68)"
+          value=""
+        />
+      </div>
+    </div>
+
+    <div class="caixaResultado">
+      <p id="resultadoImc">Resultado:</p>
+      <p id="valor">0</p>
+    </div>
+
+    <div class="tabela">
+      <table>
+        <tr>
+          <th>IMC</th>
+          <th>Classificação</th>
+          <th>Obesidade (Grau)</th>
+        </tr>
+        <tr>
+          <td>Menor que 18,5</td>
+          <td>Magreza</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>Entre 18,5 e 24,9</td>
+          <td>Normal</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>Entre 25,0 e 29,9</td>
+          <td>Sobrepeso</td>
+          <td>I</td>
+        </tr>
+        <tr>
+          <td>Entre 30,0 e 39,9</td>
+          <td>Obesidade</td>
+          <td>II</td>
+        </tr>
+        <tr>
+          <td>Maior que 40,0</td>
+          <td>Obesidade Grave</td>
+          <td>III</td>
+        </tr>
+        </table>
+    </div>
+  </body>
+</html>

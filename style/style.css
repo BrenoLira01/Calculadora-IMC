@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  align-items: center;
+}
+
+.link {
+  margin-left: 60vw;
+  margin-top: 1vh;
+  font-size: 0;
+}
+
+.icon {
+  width: 35px;
+  height: 35px;
+}
+
+.social-icon {
+  background-color: transparent;
+  width: 40px;
+  height: 40px;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.social-icon:hover {
+  transform: scale(1.25);
+}
+
+#github {
+  margin-right: 2vh;
+}
+
+.caixaDialogo {
+  background-color: #11b9d6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 450px;
+  width: 90vw;
+  border-radius: 20px;
+}
+
+.tituloInicial {
+  font-size: 1.3em;
+  margin: 3vh;
+  text-align: center;
+}
+
+.explicação {
+  color: #fff;
+  font-size: 0.8em;
+  margin: 25px;
+}
+
+.tituloSecundario {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.inputs {
+  font-size: 0.8em;
+  color: #fff;
+}
+
+.primeiroInput,
+.segundoInput {
+  font-size: 0.8em;
+  height: 30px;
+  width: 130px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.primeiroInput {
+  margin-bottom: 20px;
+}
+
+.descricao {
+  margin-bottom: 10px;
+}
+
+.caixaResultado {
+  background-color: #df892e;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 90vw;
+  border-radius: 20px;
+  margin: 40px;
+}
+
+#resultadoImc,
+#valor {
+  margin: 20px;
+}
+
+#resultadoImc {
+  font-size: 1.2em;
+}
+
+#valor {
+  font-size: 1.5em;
+  margin-left: 20px;
+}
+
+.tabela {
+  font-size: 0.8rem;
+  border: 2px solid #df892e;
+  height: 350px;
+  width: 90vw;
+}
+
+.tabela th,
+.tabela td {
+  padding: 10px;
+}
