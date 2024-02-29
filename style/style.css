@@ -14,7 +14,7 @@ body {
 
 .link {
   margin-left: 60vw;
-  margin-top: 1vh;
+  margin-top: 2vh;
   font-size: 0;
 }
 
@@ -40,31 +40,32 @@ body {
   margin-right: 2vh;
 }
 
+.tituloInicial {
+  font-size: 1.1em;
+  margin: 4vh;
+  text-align: center;
+}
+
 .caixaDialogo {
   background-color: #11b9d6;
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 450px;
+  height: 460px;
   width: 90vw;
   border-radius: 20px;
-}
-
-.tituloInicial {
-  font-size: 1.3em;
-  margin: 3vh;
-  text-align: center;
 }
 
 .explicação {
   color: #fff;
   font-size: 0.8em;
   margin: 25px;
+  margin-left: 30px;
 }
 
 .tituloSecundario {
-  font-size: 1.2em;
-  margin-bottom: 20px;
+  font-size: 1em;
+  margin-bottom: 1vh;
 }
 
 .inputs {
@@ -75,30 +76,47 @@ body {
 .primeiroInput,
 .segundoInput {
   font-size: 0.8em;
-  height: 30px;
-  width: 130px;
+  height: 25px;
+  width: 110px;
   border: none;
   border-radius: 10px;
   text-align: center;
 }
 
 .primeiroInput {
-  margin-bottom: 20px;
+  margin-bottom: 1.5vh;
+}
+
+.segundoInput {
+  margin-bottom: 3vh;
 }
 
 .descricao {
-  margin-bottom: 10px;
+  margin-bottom: 1vh;
+}
+
+.botoes button {
+  font-size: 1em;
+  height: 25px;
+  width: 100px;
+  border: none;
+  border-radius: 20px;
+}
+
+.enviar {
+  margin-right: 3vh;
+  background-color: #df892e;
 }
 
 .caixaResultado {
   background-color: #df892e;
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
   width: 90vw;
   border-radius: 20px;
-  margin: 40px;
+  margin-top: 60px;
+  margin-bottom: 35px;
 }
 
 #resultadoImc,
@@ -112,17 +130,19 @@ body {
 
 #valor {
   font-size: 1.5em;
-  margin-left: 20px;
 }
 
 .tabela {
-  font-size: 0.8rem;
+  text-align: center;
+  font-size: 0.6em;
   border: 2px solid #df892e;
-  height: 350px;
-  width: 90vw;
 }
 
 .tabela th,
 .tabela td {
   padding: 10px;
+}
+
+.tabela th {
+  font-size: 1.2em;
 }
