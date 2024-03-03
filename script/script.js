@@ -21,6 +21,8 @@ function calcular() {
   let valorPeso = dados[1];
   let imc = valorPeso / (valorAltura * valorAltura);
 
+  document.querySelector(".caixaResultado").style.display = "flex";
+
   if (isNaN(imc)) {
     document.getElementById("valor").innerText = "0";
   } else {

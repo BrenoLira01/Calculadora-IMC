@@ -1,20 +1,16 @@
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
 }
 
 body {
-  display: flex;
-  flex-direction: column;
   font-size: 20px;
-  align-items: center;
 }
 
 .link {
   margin-left: 60vw;
-  margin-top: 2vh;
+  margin-top: 3vh;
   font-size: 0;
 }
 
@@ -25,9 +21,6 @@ body {
 
 .social-icon {
   background-color: transparent;
-  width: 40px;
-  height: 40px;
-  border-radius: 15px;
   transition: all 0.3s ease;
   border: none;
 }
@@ -37,112 +30,106 @@ body {
 }
 
 #github {
-  margin-right: 2vh;
-}
-
-.tituloInicial {
-  font-size: 1.1em;
-  margin: 4vh;
-  text-align: center;
+  margin-right: 20px;
 }
 
 .caixaDialogo {
-  background-color: #11b9d6;
+  color: #fff;
+  background-color: #474747;
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 460px;
-  width: 90vw;
-  border-radius: 20px;
+  height: 600px;
+  width: 100vw;
+}
+
+.tituloInicial {
+  font-size: 1.8em;
+  margin-top: 50px;
 }
 
 .explicação {
-  color: #fff;
   font-size: 0.8em;
   margin: 25px;
-  margin-left: 30px;
+}
+
+.caixaCalculo {
+  color: #000000;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 400px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 85vw;
+  border: solid #000;
+  border-radius: 30px;
 }
 
 .tituloSecundario {
-  font-size: 1em;
-  margin-bottom: 1vh;
+  font-size: 1.3em;
+  margin: 30px 0;
 }
 
 .inputs {
-  font-size: 0.8em;
-  color: #fff;
+  margin-left: 20px;
+}
+
+.descricao {
+  margin-bottom: 20px;
 }
 
 .primeiroInput,
 .segundoInput {
-  font-size: 0.8em;
-  height: 25px;
-  width: 110px;
+  background-color: #bdbdbd;
+  font-size: 1em;
+  height: 40px;
+  width: 70vw;
   border: none;
-  border-radius: 10px;
+  border-radius: 30px;
   text-align: center;
-}
-
-.primeiroInput {
-  margin-bottom: 1.5vh;
-}
-
-.segundoInput {
-  margin-bottom: 3vh;
-}
-
-.descricao {
-  margin-bottom: 1vh;
+  margin-bottom: 30px;
 }
 
 .botoes button {
   font-size: 1em;
-  height: 25px;
-  width: 100px;
-  border: none;
+  height: 40px;
+  width: 110px;
+  border: solid #000000;
   border-radius: 20px;
+  margin: 10px;
 }
 
 .enviar {
-  margin-right: 3vh;
-  background-color: #df892e;
+  color: #fff;
+  background-color: #000;
 }
 
 .caixaResultado {
-  background-color: #df892e;
-  display: flex;
+  background-color: #ffffff;
+  display: none;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  width: 90vw;
+  padding: 10px;
+  border: solid #000000;
+  width: 70vw;
   border-radius: 20px;
-  margin-top: 60px;
-  margin-bottom: 35px;
+  margin-top: 40px;
+  margin-bottom: 25px;
 }
 
 #resultadoImc,
 #valor {
-  margin: 20px;
+  margin: 10px;
 }
 
 #resultadoImc {
   font-size: 1.2em;
+  font-weight: bold;
 }
 
 #valor {
-  font-size: 1.5em;
-}
-
-.tabela {
-  text-align: center;
-  font-size: 0.6em;
-  border: 2px solid #df892e;
-}
-
-.tabela th,
-.tabela td {
-  padding: 10px;
-}
-
-.tabela th {
-  font-size: 1.2em;
+  font-size: 3em;
 }
