@@ -1,12 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculadora IMC</title>
+    <link rel="icon" href="./imagens/icon.png">
     <link rel="stylesheet" href="style/style.css">
   </head>
   <body>
+    
     <div class="caixaDialogo">
       <div class="link">
       <a
@@ -28,8 +30,9 @@
         </button>
       </a>
     </div>
-      <h1 class="tituloInicial">Calculadora IMC</h1>
-      <p class="explicação">
+    <img id="imagemTitulo" src="/Calculadora imc/imagens/IndiceDeMassaCorporal.svg" alt="homen do lado de uma prancheta">
+      <h1 id="tituloInicial">Calculadora IMC</h1>
+      <p id="explicação">
         (IMC) ou índice de massa corporal é um parâmetro adotado pela
         Organização Mundial da Saúde para calcular o peso ideal de cada
         pessoa.<br /><br />O cálculo é realizado da seguinte maneira: divide-se
@@ -38,28 +41,29 @@
       </p>
 
       <div class="caixaCalculo">
-        <h2 class="tituloSecundario">Preencha os dados:</h2>
+        <img id="prancheta" src="/Calculadora imc/imagens/prancheta.svg" alt="prancheta">
+        <h2 id="tituloSecundario">Preencha os dados:</h2>
         <div class="inputs">
           <p class="descricao">Altura (M):</p>
           <input
-            class="primeiroInput"
+            id="primeiroInput"
             type="text"
             placeholder="(exemplo: 1,70)"
             autofocus
-            value=""
+            value="1,70"
           />
         <div>
           <p class="descricao">Peso (Kg):</p>
           <input
-            class="segundoInput"
+            id="segundoInput"
             type="text"
             placeholder="(exemplo: 68)"
-            value=""
+            value="50"
           />
         </div>
         <div class="botoes">
-        <button class="enviar">enviar</button>
-        <button class="limpar">limpar</button>
+        <button id="enviar">enviar</button>
+        <button id="limpar">limpar</button>
         </div>
       </div>
       <div class="caixaResultado">
