@@ -6,8 +6,13 @@
 }
 
 body {
-  font-size: 20px;
-  background-color: #0ba1af;
+  font-size: 18px;
+  background-image: url("../imagens/background.svg");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-color: #010a10;
 }
 
 .link {
@@ -42,12 +47,6 @@ body {
   align-items: center;
 }
 
-#imagemTitulo {
-  padding-top: 4vh;
-  width: 300px;
-  height: 300px;
-}
-
 #tituloInicial {
   font-size: 2em;
   margin-top: 7vh;
@@ -64,7 +63,7 @@ body {
   text-align: center;
   padding: 20px;
   width: 90vw;
-  margin: 20px auto;
+  margin: 40px auto;
 }
 
 .caixaCalculo,
@@ -76,12 +75,14 @@ body {
 }
 
 #prancheta {
-  width: 95px;
-  height: 95px;
+  width: 80px;
+  height: 80px;
+  margin-left: 20px;
 }
 
 #tituloSecundario {
-  padding: 10px 0 30px;
+  padding: 15px 0 30px;
+  font-size: 1.5em;
 }
 
 .descricao {
@@ -135,4 +136,83 @@ body {
 #classificacao {
   font-size: 1.5em;
   font-weight: bold;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: 25px;
+  }
+
+  .link {
+    margin-left: 90vw;
+  }
+
+  .icon {
+    width: 45px;
+    height: 45px;
+  }
+
+  .caixaDialogo {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #tituloInicial {
+    font-size: 1.8em;
+    padding-left: 14vw;
+  }
+
+  #explicação {
+    padding: 40px 7vw;
+    margin-right: 45vw;
+  }
+
+  .caixaCalculo {
+    font-size: 18px;
+    position: fixed;
+    width: 350px;
+    top: 12vh;
+    right: 8vh;
+  }
+
+  #prancheta {
+    width: 60px;
+    height: 60px;
+  }
+
+  #tituloSecundario {
+    font-size: 0.9em;
+    padding: 15px 0 20px;
+  }
+
+  .descricao {
+    font-size: 0.9em;
+    padding-bottom: 10px;
+  }
+
+  #primeiroInput,
+  #segundoInput {
+    font-size: 0.9em;
+    height: 40px;
+    width: 9vw;
+    margin-bottom: 20px;
+  }
+
+  .botoes button {
+    font-size: 0.9em;
+    height: 30px;
+    width: 90px;
+  }
+
+  .caixaResultado {
+    margin-top: 40px;
+    margin-bottom: 0px;
+  }
+
+  #resultadoImc,
+  #valor {
+    padding-bottom: 10px;
+  }
 }
