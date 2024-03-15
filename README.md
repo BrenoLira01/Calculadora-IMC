@@ -1,10 +1,12 @@
 # Introdução
 
-Este projeto é uma calculadora IMC (Índice De Massa Corporal) ainda em andamento.
+Este projeto é uma calculadora IMC (Índice De Massa Corporal) criada com HTML, JavaScript e CSS como parte do aprendizado dessas tecnologias.
 
 ## 👀 Ver projeto
 
 Acesse o link [aqui](https://brenolira01.github.io/Calculadora-IMC/).
+
+![Imagem do projeto](./imagens/readme/print.png)
 
 ## 🧠 Tecnologias Utilizadas
 
@@ -14,8 +16,8 @@ Acesse o link [aqui](https://brenolira01.github.io/Calculadora-IMC/).
 
 Os elementos adicionados ou modificados neste projeto foram obtidos de diversas fontes. Abaixo está a lista de onde cada elemento foi encontrado:
 
-- **Ícone de Índice De Massa Corporal**: Fonte: <a href="https://www.flaticon.com/br/icones-gratis/bmi" title="bmi ícones">Bmi ícones criados por Freepik - Flaticon</a>
-- **Ícone de Lista**: Fonte: <a href="https://www.flaticon.com/br/icones-gratis/lista" title="lista ícones">Lista ícones criados por Freepik - Flaticon</a>
+- **Imagem de background**: <a href="https://unsplash.com/pt-br/@visualsbyroyalz?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Anastase Maragos</a> na <a href="https://unsplash.com/pt-br/fotografias/mulher-em-regata-preta-e-shorts-vermelhos-fazendo-exercicio-4dlhin0ghOk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+- **Ícone de prancheta**: Fonte: <a href="https://www.flaticon.com/br/icones-gratis/prancheta" title="prancheta ícones">Prancheta ícones criados por Freepik - Flaticon</a>
 - **Ícone de github**: Fonte: <a href="https://www.flaticon.com/br/icones-gratis/github" title="github ícones">Github ícones criados por Pixel perfect - Flaticon</a>
 - **Ícone de linkedin**: Fonte: <a href="https://www.flaticon.com/br/icones-gratis/linkedin" title="linkedin ícones">Linkedin ícones criados por Freepik - Flaticon</a>
 

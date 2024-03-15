@@ -7,12 +7,11 @@
 
 body {
   font-size: 18px;
-  background-image: url("../imagens/background.svg");
+  background-color: #000000;
+  background-image: url("../imagens/background_360x800.png");
   background-size: cover;
-  background-position: center top;
   background-repeat: no-repeat;
   height: 100vh;
-  background-color: #010a10;
 }
 
 .link {
@@ -53,6 +52,7 @@ body {
 }
 
 #explicação {
+  text-align: center;
   font-size: 1em;
   padding: 7vw;
 }
@@ -140,6 +140,7 @@ body {
 
 @media only screen and (min-width: 768px) {
   body {
+    background-image: url("../imagens/background_1280x800.png");
     font-size: 25px;
   }
 
@@ -161,20 +162,20 @@ body {
 
   #tituloInicial {
     font-size: 1.8em;
-    padding-left: 14vw;
+    padding-left: 12vw;
   }
 
   #explicação {
     padding: 40px 7vw;
-    margin-right: 45vw;
+    margin-right: 52vw;
   }
 
   .caixaCalculo {
     font-size: 18px;
     position: fixed;
     width: 350px;
-    top: 12vh;
-    right: 8vh;
+    top: 13vh;
+    right: 13vh;
   }
 
   #prancheta {
