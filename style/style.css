@@ -7,8 +7,7 @@
 
 body {
   font-size: 18px;
-  background-color: #000000;
-  background-image: url("../imagens/background_360x800.png");
+  background-color: #039846;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -140,12 +139,12 @@ body {
 
 @media only screen and (min-width: 768px) {
   body {
-    background-image: url("../imagens/background_1280x800.png");
     font-size: 25px;
   }
 
   .link {
-    margin-left: 90vw;
+    margin-top: 5vh;
+    margin-left: 85vw;
   }
 
   .icon {
@@ -153,67 +152,18 @@ body {
     height: 45px;
   }
 
-  .caixaDialogo {
-    color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  #tituloInicial {
-    font-size: 1.8em;
-    padding-left: 12vw;
-  }
-
   #explicação {
-    padding: 40px 7vw;
-    margin-right: 52vw;
+    padding: 8vh 25vw 5vh;
   }
 
   .caixaCalculo {
     font-size: 18px;
-    position: fixed;
-    width: 350px;
-    top: 13vh;
-    right: 13vh;
-  }
-
-  #prancheta {
-    width: 60px;
-    height: 60px;
-  }
-
-  #tituloSecundario {
-    font-size: 0.9em;
-    padding: 15px 0 20px;
-  }
-
-  .descricao {
-    font-size: 0.9em;
-    padding-bottom: 10px;
+    width: 500px;
   }
 
   #primeiroInput,
   #segundoInput {
-    font-size: 0.9em;
-    height: 40px;
-    width: 9vw;
-    margin-bottom: 20px;
-  }
-
-  .botoes button {
-    font-size: 0.9em;
-    height: 30px;
-    width: 90px;
-  }
-
-  .caixaResultado {
-    margin-top: 40px;
-    margin-bottom: 0px;
-  }
-
-  #resultadoImc,
-  #valor {
-    padding-bottom: 10px;
+    height: 50px;
+    width: 10vw;
   }
 }
