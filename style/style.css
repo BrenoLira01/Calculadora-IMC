@@ -62,7 +62,7 @@ body {
   text-align: center;
   padding: 20px;
   width: 90vw;
-  margin: 40px auto;
+  margin: 50px auto;
 }
 
 .caixaCalculo,
@@ -137,6 +137,36 @@ body {
   font-weight: bold;
 }
 
+table {
+  color: #000;
+  background-color: #fff;
+  width: 90vw;
+  border-collapse: collapse;
+  border-radius: 30px;
+  margin-bottom: 40px;
+}
+
+th,
+td {
+  font-size: 0.9em;
+  border: none;
+  padding: 15px;
+  text-align: center;
+}
+
+th {
+  color: #ffffff;
+  background-color: #015326;
+}
+
+#topoEsqTabela {
+  border-top-left-radius: 30px;
+}
+
+#topoDirTabela {
+  border-top-right-radius: 30px;
+}
+
 @media only screen and (min-width: 768px) {
   body {
     font-size: 25px;
@@ -153,17 +183,22 @@ body {
   }
 
   #explicação {
-    padding: 8vh 25vw 5vh;
+    padding: 5vh 25vw 1vh;
   }
 
   .caixaCalculo {
-    font-size: 18px;
+    font-size: 1em;
     width: 500px;
   }
 
   #primeiroInput,
   #segundoInput {
     height: 50px;
-    width: 10vw;
+    width: 16vw;
+  }
+
+  table {
+    font-size: 1em;
+    width: 60vw;
   }
 }

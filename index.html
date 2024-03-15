@@ -1,35 +1,34 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculadora IMC</title>
-    <link rel="icon" href="./imagens/icon.svg">
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" href="./imagens/icon.svg" />
+    <link rel="stylesheet" href="style/style.css" />
   </head>
   <body>
-    
     <div class="caixaDialogo">
       <div class="link">
-      <a
-        href="https://github.com/BrenoLira01"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <button class="social-icon" id="github" aria-label="Ir para o GitHub">
-          <img src="./imagens/Github.svg" alt="GitHub" class="icon" />
-        </button>
-      </a>
-      <a
-        href="https://www.linkedin.com/in/breno-lira-perfil"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <button class="social-icon" aria-label="Ir para o LinkedIn">
-          <img src="./imagens/Linkedin.svg" alt="LinkedIn" class="icon" />
-        </button>
-      </a>
-    </div>
+        <a
+          href="https://github.com/BrenoLira01"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button class="social-icon" id="github" aria-label="Ir para o GitHub">
+            <img src="./imagens/Github.svg" alt="GitHub" class="icon" />
+          </button>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/breno-lira-perfil"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button class="social-icon" aria-label="Ir para o LinkedIn">
+            <img src="./imagens/Linkedin.svg" alt="LinkedIn" class="icon" />
+          </button>
+        </a>
+      </div>
       <h1 id="tituloInicial">Calculadora IMC</h1>
       <p id="explicação">
         (IMC) ou índice de massa corporal é um parâmetro adotado pela
@@ -40,7 +39,7 @@
       </p>
 
       <div class="caixaCalculo">
-        <img id="prancheta" src="./imagens/prancheta.svg" alt="prancheta">
+        <img id="prancheta" src="./imagens/prancheta.svg" alt="prancheta" />
         <h2 id="tituloSecundario">Preencha os dados:</h2>
         <div class="inputs">
           <p class="descricao">Altura (M):</p>
@@ -50,25 +49,58 @@
             placeholder="(exemplo: 1,70)"
             value=""
           />
-        <div>
-          <p class="descricao">Peso (Kg):</p>
-          <input
-            id="segundoInput"
-            type="text"
-            placeholder="(exemplo: 68)"
-            value=""
-          />
+          <div>
+            <p class="descricao">Peso (Kg):</p>
+            <input
+              id="segundoInput"
+              type="text"
+              placeholder="(exemplo: 68)"
+              value=""
+            />
+          </div>
+          <div class="botoes">
+            <button id="enviar">enviar</button>
+            <button id="limpar">limpar</button>
+          </div>
         </div>
-        <div class="botoes">
-        <button id="enviar">enviar</button>
-        <button id="limpar">limpar</button>
+        <div class="caixaResultado">
+          <p id="resultadoImc">Resultado:</p>
+          <p id="valor">0</p>
+          <p id="classificacao">Classificação</p>
         </div>
       </div>
-      <div class="caixaResultado">
-      <p id="resultadoImc">Resultado:</p>
-      <p id="valor">0</p>
-      <p id="classificacao">Classificação</p>
-    </div>
+      <table>
+        <tr>
+          <th id="topoEsqTabela">IMC</th>
+          <th>Classificação</th>
+          <th id="topoDirTabela">Obesidade (Grau)</th>
+        </tr>
+        <tr>
+          <td>MENOR QUE 18,5</td>
+          <td>MAGREZA</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>ENTRE 18,5 E 24,9</td>
+          <td>NORMAL</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>ENTRE 25,0 E 29,9</td>
+          <td>SOBREPESO</td>
+          <td>I</td>
+        </tr>
+        <tr>
+          <td>ENTRE 30,0 E 39,9</td>
+          <td>OBESIDADE</td>
+          <td>II</td>
+        </tr>
+        <tr>
+          <td>MAIOR QUE 40,0</td>
+          <td>OBESIDADE GRAVE</td>
+          <td>III</td>
+        </tr>
+      </table>
     </div>
     <script src="script/script.js"></script>
   </body>
