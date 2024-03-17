@@ -17,10 +17,8 @@ Acesse o link [aqui](https://brenolira01.github.io/Calculadora-IMC/).
 Os elementos adicionados ou modificados neste projeto foram obtidos de diversas fontes. Abaixo está a lista de onde cada elemento foi encontrado:
 
 - **Ícone de prancheta**: Fonte: <a href="https://www.flaticon.com/br/icones-gratis/prancheta" title="prancheta ícones">Prancheta ícones criados por Freepik - Flaticon</a>
-- **Ícone de github**: Fonte: <a href="https://www.flaticon.com/br/icones-gratis/github" title="github ícones">Github ícones criados por Pixel perfect - Flaticon</a>
-- **Ícone de linkedin**: Fonte: <a href="https://www.flaticon.com/br/icones-gratis/linkedin" title="linkedin ícones">Linkedin ícones criados por Freepik - Flaticon</a>
 
-Agradeço aos criadores originais por disponibilizarem esses recursos.
+Agradeço ao criador original por disponibilizar esse recurso.
 
 ## 🌱 Contribuições
 

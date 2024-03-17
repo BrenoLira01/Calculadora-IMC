@@ -3,41 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Calculadora IMC</title>
-    <link rel="icon" href="./imagens/icon.svg" />
-    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Document</title>
   </head>
   <body>
-    <div class="caixaDialogo">
-      <div class="link">
-        <a
-          href="https://github.com/BrenoLira01"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <button class="social-icon" id="github" aria-label="Ir para o GitHub">
-            <img src="./imagens/Github.svg" alt="GitHub" class="icon" />
-          </button>
-        </a>
-        <a
-          href="https://www.linkedin.com/in/breno-lira-perfil"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <button class="social-icon" aria-label="Ir para o LinkedIn">
-            <img src="./imagens/Linkedin.svg" alt="LinkedIn" class="icon" />
-          </button>
-        </a>
-      </div>
-      <h1 id="tituloInicial">Calculadora IMC</h1>
-      <p id="explicação">
-        (IMC) ou índice de massa corporal é um parâmetro adotado pela
-        Organização Mundial da Saúde para calcular o peso ideal de cada
-        pessoa.<br /><br />O cálculo é realizado da seguinte maneira: divide-se
-        o peso do paciente pela sua altura elevada ao quadrado. Diz-se que o
-        indivíduo tem peso normal quando seu IMC está entre 18,5 e 24,9.
-      </p>
-
+    <header>
+      <h1>Calculadora IMC</h1>
+    </header>
+    <section>
       <div class="caixaCalculo">
         <img id="prancheta" src="./imagens/prancheta.svg" alt="prancheta" />
         <h2 id="tituloSecundario">Preencha os dados:</h2>
@@ -69,39 +42,10 @@
           <p id="classificacao">Classificação</p>
         </div>
       </div>
-      <table>
-        <tr>
-          <th id="topoEsqTabela">IMC</th>
-          <th>Classificação</th>
-          <th id="topoDirTabela">Obesidade (Grau)</th>
-        </tr>
-        <tr>
-          <td>MENOR QUE 18,5</td>
-          <td>MAGREZA</td>
-          <td>0</td>
-        </tr>
-        <tr>
-          <td>ENTRE 18,5 E 24,9</td>
-          <td>NORMAL</td>
-          <td>0</td>
-        </tr>
-        <tr>
-          <td>ENTRE 25,0 E 29,9</td>
-          <td>SOBREPESO</td>
-          <td>I</td>
-        </tr>
-        <tr>
-          <td>ENTRE 30,0 E 39,9</td>
-          <td>OBESIDADE</td>
-          <td>II</td>
-        </tr>
-        <tr>
-          <td>MAIOR QUE 40,0</td>
-          <td>OBESIDADE GRAVE</td>
-          <td>III</td>
-        </tr>
-      </table>
-    </div>
-    <script src="script/script.js"></script>
+    </section>
+    <footer>
+      <p>&copy; FranciscoBreno</p>
+    </footer>
+    <script src="./script/script.js"></script>
   </body>
 </html>

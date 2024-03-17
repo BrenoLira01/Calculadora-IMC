@@ -2,67 +2,34 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
 }
 
 body {
-  font-size: 18px;
-  background-color: #048577;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-}
-
-.link {
-  margin-left: 65vw;
-  margin-top: 3vh;
-  font-size: 0;
-}
-
-.icon {
-  width: 35px;
-  height: 35px;
-}
-
-.social-icon {
-  background-color: transparent;
-  transition: all 0.3s ease;
-  border: none;
-}
-
-.social-icon:hover {
-  transform: scale(1.25);
-}
-
-#github {
-  margin-right: 20px;
-}
-
-.caixaDialogo {
-  color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-#tituloInicial {
-  font-size: 2em;
-  margin-top: 7vh;
-}
-
-#explicação {
+  background-color: #66ba82;
+  font: normal 15pt Arial;
   text-align: center;
-  font-size: 1em;
-  padding: 7vw;
 }
 
-.caixaCalculo {
-  color: #000;
+header {
+  color: #fff;
+  text-align: center;
+  margin: 50px 0 20px;
+}
+
+section {
   background-color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 3px 3px 10px #00000089;
+}
+
+footer {
+  color: #fff;
   text-align: center;
-  padding: 20px;
-  width: 90vw;
-  margin: 50px auto;
+  font-style: italic;
+  margin: 30px;
 }
 
 .caixaCalculo,
@@ -77,25 +44,29 @@ body {
   width: 80px;
   height: 80px;
   margin-left: 20px;
+  margin-bottom: 10px;
 }
 
 #tituloSecundario {
-  padding: 15px 0 30px;
-  font-size: 1.5em;
+  margin: 15px 0 30px;
 }
 
 .descricao {
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 #primeiroInput,
 #segundoInput {
   background-color: #bdbdbd;
-  font-size: 1em;
+  font-size: 0.8em;
   height: 40px;
-  width: 70vw;
+  width: 20vw;
   border: none;
   text-align: center;
+  margin-bottom: 20px;
+}
+
+#segundoInput {
   margin-bottom: 30px;
 }
 
@@ -104,6 +75,7 @@ body {
   height: 40px;
   width: 110px;
   border: solid #000;
+  margin-bottom: 10px;
 }
 
 #enviar {
@@ -137,68 +109,13 @@ body {
   font-weight: bold;
 }
 
-table {
-  color: #000;
-  background-color: #fff;
-  width: 90vw;
-  border-collapse: collapse;
-  border-radius: 30px;
-  margin-bottom: 40px;
-}
-
-th,
-td {
-  font-size: 0.9em;
-  border: none;
-  padding: 15px;
-  text-align: center;
-}
-
-th {
-  color: #ffffff;
-  background-color: #024941;
-}
-
-#topoEsqTabela {
-  border-top-left-radius: 30px;
-}
-
-#topoDirTabela {
-  border-top-right-radius: 30px;
-}
-
-@media only screen and (min-width: 768px) {
-  body {
-    font-size: 25px;
-  }
-
-  .link {
-    margin-top: 5vh;
-    margin-left: 85vw;
-  }
-
-  .icon {
-    width: 45px;
-    height: 45px;
-  }
-
-  #explicação {
-    padding: 5vh 25vw 1vh;
-  }
-
-  .caixaCalculo {
-    font-size: 1em;
-    width: 500px;
+@media only screen and (max-width: 768px) {
+  section {
+    width: 90vw;
   }
 
   #primeiroInput,
   #segundoInput {
-    height: 50px;
-    width: 16vw;
-  }
-
-  table {
-    font-size: 1em;
-    width: 60vw;
+    width: 50vw;
   }
 }
