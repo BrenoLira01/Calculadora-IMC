@@ -54,7 +54,7 @@ function calcular() {
     classificacao.innerText += " 😟";
   } else {
     valor.style.color = "blue";
-    classificacao.innerText += " 😎";
+    classificacao.innerText += " 😁";
   }
 }
 
@@ -72,17 +72,3 @@ function limpar() {
 var primeiroInput = document.querySelector("#primeiroInput");
 var segundoInput = document.querySelector("#segundoInput");
 var enviarBotao = document.querySelector("#enviar");
-
-primeiroInput.addEventListener("keydown", function (event) {
-  if (event.key === "Enter") {
-    event.preventDefault();
-    segundoInput.focus();
-  }
-});
-
-segundoInput.addEventListener("keydown", function (event) {
-  if (event.key === "Enter") {
-    event.preventDefault();
-    enviarBotao.focus();
-  }
-});
