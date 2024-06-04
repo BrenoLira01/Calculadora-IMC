@@ -22,13 +22,9 @@ Agradeço ao criador original por disponibilizar esse recurso.
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas e solicitações de pull para melhorar este projeto.
 
-## Autor
-
-Feito por [Francisco Breno](https://www.linkedin.com/in/breno-lira-perfil).
-
 ## Contato
 
-[Email](mailto:franciscobrenolira@gmail.com)
+- [Email](mailto:franciscobrenolira@gmail.com)
 
 ## Licença
 
